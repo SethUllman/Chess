@@ -1,10 +1,12 @@
 public class Piece {
-    final int White = 0;
-    final int Black = 1;
 
     int color;
     int[][] currentPosition;
     int[][] availableMoves;
+
+    public Piece(int color){
+        color = color;
+    }
 
     public int[][] getPosition(){
         return new int[1][1];
