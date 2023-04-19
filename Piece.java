@@ -8,6 +8,9 @@ public class Piece {
         color = color;
     }
 
+    public Piece() {
+    }
+
     public int[][] getPosition(){
         return new int[1][1];
     }

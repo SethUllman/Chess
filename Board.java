@@ -31,6 +31,13 @@ public class Board {
         board[0][4] = new King(White);
         board[7][3] = new King(Black);
         board[7][4] = new Queen(Black);
+
+        // generates empty positions
+        for(int i = 2; i < 6; i++){
+            for(int j = 0; j < 8; j++){
+                board[i][j] = new Empty();
+            }
+        }
     }
 
     // prints the entire board
