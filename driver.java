@@ -1,8 +1,8 @@
 public class driver {
 
     public static void main(String[] args){
-        Board board = new Board();
-        board.print();
+        Game game = new Game();
+        game.start();
     }
 
 }
