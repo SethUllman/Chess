@@ -25,6 +25,6 @@ public class Piece {
     }
 
     public void print(){
-        
+
     }
 }
