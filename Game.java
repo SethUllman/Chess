@@ -14,6 +14,7 @@ public class Game {
     public void play(){
 
         while(!gameOver()) {
+            board.print();
             int[] startPos = new int[2];
             int[] endPos = new int[2];
             do {
