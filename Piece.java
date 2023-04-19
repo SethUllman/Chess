@@ -23,4 +23,8 @@ public class Piece {
     public void move(){
 
     }
+
+    public void print(){
+        
+    }
 }

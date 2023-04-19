@@ -9,5 +9,9 @@ public class Pawn extends Piece{
 
     }
 
+    public void print(){
+        System.out.print("P");
+    }
+
 
 }

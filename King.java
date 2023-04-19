@@ -8,4 +8,8 @@ public class King extends Piece{
     public void move(){
 
     }
+
+    public void print(){
+        System.out.print("K");
+    }
 }

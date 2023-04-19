@@ -8,4 +8,8 @@ public class Bishop extends Piece{
     public void move(){
 
     }
+
+    public void print(){
+        System.out.print("B");
+    }
 }

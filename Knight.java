@@ -8,4 +8,8 @@ public class Knight extends Piece{
     public void move(){
 
     }
+
+    public void print(){
+        System.out.print("Kn");
+    }
 }
