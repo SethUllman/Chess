@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a02e35fb-2c1e-41a6-90ae-41aba1497d9c" name="Changes" comment="Add empty Piece methods" />
+    <list default="true" id="a02e35fb-2c1e-41a6-90ae-41aba1497d9c" name="Changes" comment="Add empty Piece methods">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Empty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/driver.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +38,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fb5da803-d222-4431-b546-36fa05703ba1" />
+        <option name="url" value="https://github.com/SethUllman/Chess.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -30,6 +60,7 @@
   </component>
   <component name="ProjectId" id="2ObhiUdpHaUY7tJOnYj4u3fdRDO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -65,7 +96,6 @@
       <workItem from="1681835348184" duration="672000" />
       <workItem from="1681836152930" duration="1498000" />
       <workItem from="1681877906386" duration="996000" />
-      <workItem from="1681938919409" duration="5180000" />
     </task>
     <task id="LOCAL-00001" summary="Add empty classes">
       <created>1681878214520</created>

@@ -42,10 +42,13 @@ public class Board {
 
     // prints the entire board
     public void print(){
-        for(int row = 0; row < 8; row++){
+        for(int row = 7; row >= 0; row--){
+            System.out.println("-----------------");
             for(int col = 0; col < 8; col++){
+                System.out.print("|");
                 board[row][col].print();
             }
+            System.out.print("|");
             System.out.println();
         }
     }

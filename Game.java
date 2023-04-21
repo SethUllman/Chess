@@ -24,15 +24,15 @@ public class Game {
                 System.out.println("Enter position to move to: ");
                 String endInput = scanner.nextLine();
 
-                char startRow = startInput.charAt(0);
-                char startCol = startInput.charAt(1);
-                char endRow = endInput.charAt(0);
-                char endCol = endInput.charAt(1);
+                char startCol = startInput.charAt(0);
+                char startRow = startInput.charAt(1);
+                char endCol = endInput.charAt(0);
+                char endRow = endInput.charAt(1);
 
-                startPos[0] = startRow-97;
-                startPos[1] = startCol-49;
-                endPos[0] = endRow-97;
-                endPos[1] = endCol-49;
+                startPos[1] = startCol-97;
+                startPos[0] = startRow-49;
+                endPos[1] = endCol-97;
+                endPos[0] = endRow-49;
 
             } while(!validMove(startPos, endPos));
 
