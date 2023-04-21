@@ -11,13 +11,16 @@ public class Board {
         // generates pawns
         for(int col = 0; col < 8; col++) {
             board[1][col] = new Pawn(White);
+            board[1][col].currentPosition = new int[]{1, col};
             board[6][col] = new Pawn(Black);
+            board[6][col].currentPosition = new int[]{6, col};
         }
         int[] rows = {0, 7};
         // generates special pieces
         for(int color = 0; color < 2; color++){
             for(int i = 0; i < 2; i++){
                 board[rows[i]][0] = new Rook(color);
+                board[rows[i]][0].currentPosition = new int[]{rows[i], 0};
                 board[rows[i]][1] = new Knight(color);
                 board[rows[i]][2] = new Bishop(color);
                 board[rows[i]][5] = new Bishop(color);
@@ -36,6 +39,14 @@ public class Board {
         for(int i = 2; i < 6; i++){
             for(int j = 0; j < 8; j++){
                 board[i][j] = new Empty();
+            }
+        }
+
+        // set starting position of pieces
+        for(int i = 0; i < 8; i++){
+            for(int j = 0; j < 8; j++){
+                board[i][j].currentPosition[0] = j;
+                board[i][j].currentPosition[1] = i;
             }
         }
     }

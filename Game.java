@@ -48,11 +48,23 @@ public class Game {
     }
 
     public boolean validMove(int[] start, int[] end){
-        if(board.board[start[0]][start[1]].color != turn){
+        Piece piece = board.board[start[0]][start[1]];
+        if(piece.color != turn){
             System.out.println("You can only move your pieces!");
             return false;
         }
-        return true;
+        boolean posMove = false;
+        for(int i = 0; i < piece.availableMoves.length; i++){
+            System.out.print(piece.availableMoves[i][0]);
+            System.out.println(piece.availableMoves[i][1]);
+            System.out.print(end[0]);
+            System.out.println(end[1]);
+            System.out.println("------------");
+            if(piece.availableMoves[i][0] == end[0] && piece.availableMoves[i][1] == end[1]){
+                return true;
+            }
+        }
+        return posMove;
     }
 
     public boolean gameOver(){

@@ -1,8 +1,8 @@
 public class Piece {
 
     int color;
-    int[][] currentPosition;
-    int[][] availableMoves;
+    int[] currentPosition = new int[2];
+    int[][] availableMoves = new int[20][2];
 
     public Piece(int color){
         color = color;
@@ -11,12 +11,12 @@ public class Piece {
     public Piece() {
     }
 
-    public int[][] getPosition(){
-        return new int[1][1];
+    public int[] getPosition(){
+        return currentPosition;
     }
 
-    public void setPosition(int[][] pos){
-
+    public void setPosition(int[] pos){
+        currentPosition = pos;
     }
 
     public void updateMoves(){

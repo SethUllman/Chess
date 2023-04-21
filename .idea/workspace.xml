@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a02e35fb-2c1e-41a6-90ae-41aba1497d9c" name="Changes" comment="Add empty Piece methods">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a02e35fb-2c1e-41a6-90ae-41aba1497d9c" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Empty.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/King.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Knight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Pawn.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Piece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/Rook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess/driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681878821248</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix movement bug">
+      <created>1682049772522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682049772522</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updates">
+      <created>1682049802976</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682049802976</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +160,8 @@
     <MESSAGE value="Add empty Game methods" />
     <MESSAGE value="Add empty Board methods" />
     <MESSAGE value="Add empty Piece methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add empty Piece methods" />
+    <MESSAGE value="Fix movement bug" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>
