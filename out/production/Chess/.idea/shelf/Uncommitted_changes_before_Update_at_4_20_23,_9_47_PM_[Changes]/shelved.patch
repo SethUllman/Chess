@@ -1,0 +1,64 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"a02e35fb-2c1e-41a6-90ae-41aba1497d9c\" name=\"Changes\" comment=\"Add empty Piece methods\">\n      <change beforePath=\"$PROJECT_DIR$/Pawn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Pawn.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ChangesViewManager\" show_ignored=\"true\" />\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n    <option name=\"showPreview\" value=\"true\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2ObhiUdpHaUY7tJOnYj4u3fdRDO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\sethullman\\Documents\\GitHub\\Chess\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"a02e35fb-2c1e-41a6-90ae-41aba1497d9c\" name=\"Changes\" comment=\"\" />\n      <created>1681835318235</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1681835318235</updated>\n      <workItem from=\"1681835348184\" duration=\"672000\" />\n      <workItem from=\"1681836152930\" duration=\"1498000\" />\n      <workItem from=\"1681877906386\" duration=\"996000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Add empty classes\">\n      <created>1681878214520</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681878214520</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Add empty Game methods\">\n      <created>1681878531412</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681878531412</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Add empty Board methods\">\n      <created>1681878653137</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681878653137</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Add empty Piece methods\">\n      <created>1681878821248</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681878821248</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\n                <map>\n                  <entry key=\"Show.Git.Branches\" value=\"false\" />\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Add empty classes\" />\n    <MESSAGE value=\"Add empty Game methods\" />\n    <MESSAGE value=\"Add empty Board methods\" />\n    <MESSAGE value=\"Add empty Piece methods\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Add empty Piece methods\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f8db36b127f521327f327cff3a7935d65821f653)
++++ b/.idea/workspace.xml	(date 1682048792526)
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a02e35fb-2c1e-41a6-90ae-41aba1497d9c" name="Changes" comment="Add empty Piece methods">
+-      <change beforePath="$PROJECT_DIR$/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pawn.java" afterDir="false" />
+-    </list>
++    <list default="true" id="a02e35fb-2c1e-41a6-90ae-41aba1497d9c" name="Changes" comment="Add empty Specialty Piece methods" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -66,7 +64,7 @@
+       <updated>1681835318235</updated>
+       <workItem from="1681835348184" duration="672000" />
+       <workItem from="1681836152930" duration="1498000" />
+-      <workItem from="1681877906386" duration="996000" />
++      <workItem from="1681877906386" duration="1284000" />
+     </task>
+     <task id="LOCAL-00001" summary="Add empty classes">
+       <created>1681878214520</created>
+@@ -96,7 +94,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1681878821248</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Add empty Pawn methods">
++      <created>1681878999905</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1681878999905</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Add empty Specialty Piece methods">
++      <created>1681879051739</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1681879051739</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -124,6 +136,8 @@
+     <MESSAGE value="Add empty Game methods" />
+     <MESSAGE value="Add empty Board methods" />
+     <MESSAGE value="Add empty Piece methods" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Add empty Piece methods" />
++    <MESSAGE value="Add empty Pawn methods" />
++    <MESSAGE value="Add empty Specialty Piece methods" />
++    <option name="LAST_COMMIT_MESSAGE" value="Add empty Specialty Piece methods" />
+   </component>
+ </project>
+\ No newline at end of file
